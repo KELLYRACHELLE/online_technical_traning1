@@ -22,8 +22,7 @@
     'depends': ['base'],
     
     'data': [
-   
-        
+       
     ],
     
     'demo': [
