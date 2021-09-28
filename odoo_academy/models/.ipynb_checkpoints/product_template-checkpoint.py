@@ -1,11 +1,11 @@
-# -- coding: utf-8 --
+# -- conding: utf-8 --
 
-from odoo import models,fields, api
+from odoo import models, fields, api
 
 class ProductTemplate(models.Model):
     _inherit = 'product.template'
     
-    is_session_product = fields.Boolean(string='Use as Session Poduct',
-                                        help='Check this box to use this as a product for Session Fee',
-                                        default=False)
+    is_session_product = fields.Boolean(string='Use as a session product',
+                                       help='check this box to use this as a product for session fee',
+                                       default=False)
     
