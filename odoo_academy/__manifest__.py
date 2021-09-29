@@ -32,6 +32,7 @@
         'wizard/sale_wizard_view.xml',
         'report/session_report_templates.xml',
         'views/academy_web_templates.xml',
+        'views/addenda_test.xml',
         
         
         
